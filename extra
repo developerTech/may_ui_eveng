@@ -207,3 +207,17 @@ stylesheet
     height:200px;
     background:red;
 }
+
+//////HW////
+position: absolute
+position: relative
+
+
+///////Target//////
+tagname
+classname
+> .
+> use to target multiple element together
+id
+> #
+> use to target unique element
