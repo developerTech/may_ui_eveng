@@ -221,3 +221,10 @@ classname
 id
 > #
 > use to target unique element
+
+/
+solid
+dotted
+dashed
+groove
+double
