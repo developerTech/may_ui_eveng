@@ -36,15 +36,87 @@ header{
     width:100%;
     /* border:2px groove green; */
     background-image: url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 400px;; 
+}
+#content{
+    height:350px;
+    width:60%;
+    /* border:2px groove white; */
+    margin-left: 19%;
+    margin-top: 2%;
+    position:absolute
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin:auto;
+    background-color:white
+}
+
+#logo>span{
+    font-size:80px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+#heading{
+    font-size:50px;
+    margin-left: 8%;
+    color:white
+}
+.dropdown{
+    height:60px;
+    width:100%;
+    position: absolute;
+    margin-top: 4%; 
+    margin-left: 3%; 
+}
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+.restSelect{
+    width:55%;
 }
 /*QuickSearch*/
 #quickSearch{
-    height:600px;
-    width:100%;
-    border:2px groove orange
+    width:80%;
+    margin-left: 10%;
+    margin-top:2%;
+    display: inline-block
+}
+#quickHeading{
+    display: block;
+    font-size:30px;
+    color: #d77440;
+    font-weight: bold;
+    margin-left:2%;
+}
+#quickSubHeading{
+    display: block;
+    font-size:20px;
+    color: gray;
+    line-height: 2;
+    margin-left:2%;
+}
+.tileContainer{
+    width:30%;
+    height:180;
+    border:2px groove black;
+    float:left;
+    margin-left:2%;
+    margin-top:2%;
 }
 /*Footer*/
 footer{
+    margin-top:2%;
     height:80px;
     width:100%;
     border:2px groove violet
