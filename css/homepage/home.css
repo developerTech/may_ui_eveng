@@ -54,27 +54,27 @@ header{
     width:150px;
     border-radius: 50%;
     margin:auto;
-    background-color:white
+    background-color:rgba(255, 255, 255, 60%)
 }
 
 #logo>span{
     font-size:80px;
     position: absolute;
-    margin-left: 5%;
-    margin-top: 3%;
+    margin-left: 3%;
+    margin-top: 2%;
 }
 
 #heading{
     font-size:50px;
-    margin-left: 8%;
+    margin-left: 28%;
     color:white
 }
 .dropdown{
     height:60px;
-    width:100%;
+    width:60%;
     position: absolute;
     margin-top: 4%; 
-    margin-left: 3%; 
+    margin-left: 25%; 
 }
 select{
     height:60px;
@@ -109,15 +109,57 @@ select{
 .tileContainer{
     width:30%;
     height:180;
-    border:2px groove black;
+    /* border:2px groove black; */
+    box-shadow: 10px 20px 10px #cf9983;
     float:left;
     margin-left:2%;
     margin-top:2%;
 }
+.tileComponent1{
+    width:50%;
+    float:left;
+    height:180px;
+}
+.tileComponent1 >img {
+    width:100%;
+    height:180px
+}
+.tileComponent2{
+    width:45%;
+    margin-left: 5%;
+    margin-top: 14%;
+    float:left
+}
+.componentHeading > a{
+    color:#d77440;
+    font-size:25px
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:20px;
+}
+
 /*Footer*/
 footer{
     margin-top:2%;
-    height:80px;
+    height:120px;
     width:100%;
-    border:2px groove violet
+   background-color: #f8ab81;;
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    text-align:center;
+    border-right: 2px solid black;
+}
+
+.noborder{
+    border:none
 }
