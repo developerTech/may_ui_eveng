@@ -34,24 +34,57 @@ header{
 #content{
     display:inline-block;
     width:80%;
+    height:650px;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
-#filterDiv{
-    height:500px;
-    width:20%;
-    border: 2px solid green;
+#imgDiv{
+    height:450px;
+    width:45%;
     float:left;
+    border:8px groove gray;
+    margin-top:5%
 }
+
+#imgDiv > img{
+    height:450px;
+    width:100%;
+}
+
 #contentDiv{
-    height:800px;
-    width:77%;
-    margin-left: 2%;
-    border: 2px solid red;
+    height:600px;
+    width:45%;
     float:left;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
+.feature_container{
+    width:98%;
+    display: inline-block;
+    margin-left:-8%
+}
+figure{
+    float:left;
+    width:85px;
+    height:85px
+}
+h2{
+    color:green;
+    font-size:35px
+}
+.btn-details{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color:#f8ab81
+}
+
+.checked{
+    font-size:20px;
+    color:red
+}
 /*Footer*/
 footer{
     margin-top:2%;
