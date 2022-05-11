@@ -228,3 +228,5 @@ dotted
 dashed
 groove
 double
+
+ window.innerWidth
