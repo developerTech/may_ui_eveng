@@ -6,3 +6,8 @@
     font-size:30px;
     color:red
 }
+
+.item >img{
+    height:350px !important;
+    width:100%
+}
