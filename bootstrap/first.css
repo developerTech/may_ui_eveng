@@ -11,3 +11,32 @@
     height:350px !important;
     width:100%
 }
+
+#first{
+    height:200px;
+    background-color:rgb(161, 241, 161)
+}
+#second{
+    height:200px;
+    background-color:rgb(192, 235, 248)
+}
+#third{
+    height:200px;
+    background-color:rgb(238, 176, 214)
+}
+#fourth{
+    height:200px;
+    background-color:rgb(238, 201, 171)
+}
+#fifth{
+    height:200px;
+    background-color:rgb(220, 192, 244)
+}
+#sixth{
+    height:200px;
+    background-color:rgb(94, 100, 94)
+}
+#seventh{
+    height:200px;
+    background-color:rgb(238, 225, 181)
+}
