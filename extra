@@ -25,19 +25,23 @@ javascript      > Add Logics
 > alert console prompt
 > Operations
 > String literals
-> String Operations
 > Math
+/////////////////////////
+> String Operations
+> let, const
+
 > localStorage
 > sessionStorage
 > cookies
-> let, const
-> github 
 > condition
 > if else
 > ternary Operations
+
 > Date
 > switch
 > array
+
+> github 
 > loops
 > Rest
 > Functions
