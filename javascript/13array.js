@@ -99,3 +99,42 @@ city.splice(1,2,'Mumbai')
 (2) ['Helsinki', 'Amsterdam']
 city
 (6) ['Delhi', 'Mumbai', 'Dubai', 'Paris', 'Boston', 'Pune']
+
+var city = ['Delhi', 'Helsinki', 'Amsterdam', 'Dubai', 'Paris', 'Boston', 'Pune']
+city.indexOf('Amsterdam')
+2
+city.indexOf('Delhi')
+0
+city.indexOf('Mumbai')
+-1
+city.indexOf('Nice')
+-1
+
+var a = ['a','b','c',1]
+var b = [1,3,7,4]
+a+b
+'a,b,c,11,3,7,4'
+a.concat(b)
+(8) ['a', 'b', 'c', 1, 1, 3, 7, 4]
+
+var a = "Hii"
+var b = ["Hiii"]
+Array.isArray(a)
+false
+Array.isArray(b)
+true
+
+var city = ['Venice', 'Amsterdam',['Red',['Bmw','Audi','Merc'],'Yellow','Green'], 'Boston', 'Pune']
+
+city[0]
+'Venice'
+city[2]
+(4) ['Red', Array(3), 'Yellow', 'Green']
+city[2][0]
+'Red'
+city[2][2]
+'Yellow'
+city[2][1]
+(3) ['Bmw', 'Audi', 'Merc']
+city[2][1][0]
+'Bmw'
