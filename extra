@@ -38,20 +38,20 @@ javascript      > Add Logics
 > switch
 > array
 > loops
-/////////////////////////
 > Functions
 > Rest
 > spread
-
-> github 
+> Closures
+> Hoisting
+/////////////////////////
 > Es6
     > maps,filter
 > regex
 > destructuring
-> Closures
-> Hoisting
+
 > object 
 > JSON
+> github 
 > Es6
     > Transpile
     > import export
