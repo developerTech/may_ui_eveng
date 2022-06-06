@@ -49,19 +49,19 @@ javascript      > Add Logics
 > destructuring
 > object 
 > JSON
-/////////////////////////
-> github 
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
 > this
+/////////////////////////
 > Es6
     > classes
 > Prototypes
 > DoM
 > Calc
+
 > Form validation
 > Event
 > dummyAPi jsonserver 
@@ -86,6 +86,7 @@ javascript      > Add Logics
 > factorial
 > palindrome
 > tictactogame
+> github 
 
 /////////
 html> is the main tag
@@ -253,3 +254,13 @@ md > 768px
 lg > 992px
 xl > 1200px
 xxl > 1400px
+
+Package.json
+/// entry point to the app
+// all the packages and script to run the
+
+// step to create
+> go inside the folder using cmd
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register
