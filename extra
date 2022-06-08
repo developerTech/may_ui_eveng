@@ -60,22 +60,22 @@ javascript      > Add Logics
 > Prototypes
 > DoM
 > Calc
-/////////////////////////
 > Form validation
 > Event
 > dummyAPi jsonserver 
-
 > dark/light mode
+/////////////////////////
 > currenyConvertor
 > promis
 > async await
-
 > screen
+> set interval
+> set timeout
+
 > Geolocation
 > Dynamic DropDown
 
-> set interval
-> set timeout
+
 > debouncing
 > Progress bar
 > Call/Apply
@@ -269,3 +269,5 @@ Package.json
 
 npm i @babel/core @babel/preset-env @babel/register
 
+/// dummy api
+json-server --watch db.json --port 8700

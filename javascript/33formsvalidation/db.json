@@ -1,0 +1,20 @@
+{
+  "employee": [
+    {
+      "id": "26248",
+      "fname": "Aakash",
+      "email": "a@a.com",
+      "password": "77567567567",
+      "cpassword": "77567567567",
+      "city": "Pune"
+    },
+    {
+      "id": "80105",
+      "fname": "Arpit",
+      "email": "aprit@gmail.com",
+      "password": "sgsrgehrhebfd",
+      "cpassword": "sgsrgehrhebfd",
+      "city": "Mumbai"
+    }
+  ]
+}
