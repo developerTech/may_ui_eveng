@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            var timer;
+            function myfunction(){
+                console.log('Button Clicked')
+            }
+
+            function myDebounce(){
+                clearTimeout(timer);
+                timer = setTimeout(function(){
+                    myfunction()
+                },2000)
+            }
+
+        </script>
+    </head>
+    <body>
+        <button onclick="myDebounce()">Click Me</button>
+    </body>
+</html>
